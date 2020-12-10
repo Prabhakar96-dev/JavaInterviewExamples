@@ -1,4 +1,4 @@
-package com.generic.programs;
+package com.array.programs;
 
 import java.util.Arrays;
 import java.util.List;
@@ -18,13 +18,25 @@ public class CountPairsWitInArray {
 			}
 	}
 
+	public static void search(int arr[], int n) {
+		for (int i = 0; i < n; i++)
+			for (int j = i + 1; j < n; j++) {
+				Integer data = arr[i] + arr[j];
+				if (Arrays.binarySearch(arr, data)>-1) {
+					System.out.println("i: "+arr[i]+" j: "+arr[j]+" === "+data);
+				}
+			}
+	}
+	
 	public static void main(String[] args) {
-		int arr[] = new int[99];
+		int arr[] = new int[9];
 		int c=0;
-		for (int i = 2; i <= 100; i++) {
+		for (int i = 2; i <=10; i++) {
 			arr[c] = i * i;
 			c++;
 		}
 		new CountPairsWitInArray().getPairsCount(arr, arr.length);
+		System.out.println("===========================");
+		search(arr, arr.length);
 	}
 }

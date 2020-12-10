@@ -1,10 +1,10 @@
-package com.generic.programs;
+package com.array.programs;
 
 import java.util.HashMap;
 
 public class CountPairsWithGivenSum {
 
-	static int arr[] = new int[]  {1, 2, 3, 5, 10};
+	static int arr[] = new int[]  {1, 2, 3, 5, 10,1,4};
 
 	static int getPairsCount(int n, int sum) {
 		HashMap<Integer, Integer> hm = new HashMap<>();
