@@ -1,0 +1,2 @@
+1. Difference between stored procedure and normal query.
+2.

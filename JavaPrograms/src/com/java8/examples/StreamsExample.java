@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -49,8 +50,12 @@ public class StreamsExample {
 		Stream.iterate(new int[] { 0, 1 }, n -> new int[] { n[1], n[0] + n[1] }).limit(20).map(n -> n[0])
 				.forEach(x -> System.out.println(x));
 	}
+	
 
 	public static void main(String[] args) {
 		filetr();// stream.filter
+	Stream.of(1,2,3,4)
+    .max(Comparator.comparing(Integer::valueOf))
+    .get();
 	}
 }

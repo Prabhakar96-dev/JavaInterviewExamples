@@ -1,0 +1,4 @@
+What is partition?
+What is offset?
+what is consumer group?
+How read messages in sequence order?

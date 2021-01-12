@@ -1,0 +1,10 @@
+Scopes in spring?
+Difference between @component vs @Service vs @Repository vs @Configuration
+What is IOC?
+What is AOP?
+What is actuator and how you disable?
+What is swagger?
+How you implement if service is down (Hystrix)?
+What is feign client?
+How use feign client if endpoint has https?
+post vs put?

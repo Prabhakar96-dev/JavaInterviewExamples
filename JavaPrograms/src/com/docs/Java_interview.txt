@@ -1,0 +1,33 @@
+How ConcurrentHashMap works?
+What is Functiona inteface?
+What is Optional?
+What is Predicate?
+How HashMap works?
+Collection vs Streams?
+Why immutable in java?
+What is JVM and memorey management?
+Explain about Grabage collection?
+Relation between hashcode and equals?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Coding
+=====
+merge sorted arrays in sorting order.
+print even and odd numbers using two threads
+Generate outofmemorey exception using java code.
