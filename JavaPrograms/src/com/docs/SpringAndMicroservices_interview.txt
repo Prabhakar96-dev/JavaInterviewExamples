@@ -8,3 +8,4 @@ How you implement if service is down (Hystrix)?
 What is feign client?
 How use feign client if endpoint has https?
 post vs put?
+@Autowired vs @Inject
